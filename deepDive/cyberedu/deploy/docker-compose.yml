@@ -1,0 +1,8 @@
+version: "3"
+services:
+  server:
+    build: .
+    container_name: deepDive
+    ports:
+      - "60000:13337"
+    restart: always
